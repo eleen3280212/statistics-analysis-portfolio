@@ -1,102 +1,60 @@
-Multiple Linear Regression Analysis of Family Income
+# Module 7 – Multiple Linear Regression Analysis of Family Income
 
-Overview
+This project was completed using IBM SPSS Statistics as part of UCI Data Science coursework.
 
-This project uses Multiple Linear Regression to examine factors associated with family income using data from the General Social Survey (GSS). The goal was to identify which demographic, educational, health, and language-related variables significantly predict family income and to determine the strongest predictors in the model.
+## Topics Covered
 
-Dataset
+- Multiple linear regression
+- Hypothesis testing
+- ANOVA interpretation
+- Model fit evaluation
+- Adjusted R-squared interpretation
+- Coefficient analysis
+- Multicollinearity assessment
+- Residual diagnostics
 
-The analysis was conducted using data from the General Social Survey (GSS).
+## Skills Demonstrated
 
-Dependent Variable
+- Statistical modeling
+- Multiple linear regression analysis
+- Hypothesis testing
+- SPSS data analysis
+- Model interpretation
+- Diagnostic evaluation
+- Quantitative reasoning
+- Data-driven decision making
+
+## Dataset
+
+This analysis used data from the General Social Survey (GSS) dataset. The project examined how demographic, educational, health, and language-related characteristics could be used to predict family income.
+
+Predictor variables included:
+
+- Race
+- Height
+- Days of poor mental health
+- Highest year of school completed
+- Ability to speak another language besides English or Spanish
+
+Dependent variable:
 
 - Family Income (constant dollars)
 
-Independent Variables
+Source: https://gss.norc.org/
 
-- Race
-- Highest Year of School Completed
-- Height
-- Days of Poor Mental Health
-- Ability to Speak Another Language Besides English or Spanish
+## Key Findings
 
-Objective
+- The overall regression model was statistically significant, F(6, 1314) = 49.235, p < .001.
+- The model explained approximately 18.0% of the variance in family income (Adjusted R² = .180).
+- Highest year of school completed was the strongest predictor of family income (Beta = .333).
+- Height showed a significant positive relationship with family income.
+- Days of poor mental health showed a significant negative relationship with family income.
+- Respondents identified as Black had significantly lower predicted family income compared to the reference group.
+- The ability to speak another language besides English or Spanish was not a statistically significant predictor.
+- VIF statistics were close to 1, indicating no evidence of multicollinearity.
+- Residual diagnostics suggested a possible mild violation of the equal variance assumption, although the model remained useful for identifying significant predictors of family income.
 
-The purpose of this analysis was to:
+## Software Used
 
-- Determine whether the selected independent variables significantly predict family income.
-- Evaluate the overall performance of the regression model.
-- Identify the strongest predictors of family income.
-- Assess whether the assumptions of multiple linear regression were reasonably satisfied.
-
-Methods
-
-A Multiple Linear Regression model was developed using IBM SPSS Statistics.
-
-The analysis included:
-
-- ANOVA testing for overall model significance
-- Evaluation of model fit using Adjusted R²
-- Examination of regression coefficients
-- Comparison of standardized Beta coefficients
-- Multicollinearity assessment using Variance Inflation Factors (VIF)
-- Residual diagnostics to evaluate model assumptions
-
-Results
-
-Model Significance
-
-The regression model was statistically significant:
-
-- F(6,1314) = 49.235
-- p < .001
-
-Model Fit
-
-- R² = .184
-- Adjusted R² = .180
-
-The model explained approximately 18.0% of the variance in family income.
-
-Significant Predictors
-
-The following variables were statistically significant predictors of family income:
-
-- Highest Year of School Completed
-- Height
-- Days of Poor Mental Health
-- Race = Black
-
-Strongest Predictor
-
-The strongest predictor was Highest Year of School Completed:
-
-- Standardized Beta = .333
-
-This finding suggests that educational attainment had the greatest influence on family income among the variables included in the model.
-
-Diagnostic Evaluation
-
-- VIF values were close to 1, indicating no multicollinearity concerns.
-- Residual plots suggested a possible mild violation of the homoscedasticity assumption.
-- Overall model assumptions were reasonably satisfied.
-
-Conclusion
-
-The multiple regression model demonstrated meaningful predictive ability and identified education as the strongest predictor of family income. Race, height, and mental health were also significant contributors. Although the model explained a moderate proportion of the variance in income, the results provide valuable insights into factors associated with economic outcomes.
-
-Skills Demonstrated
-
-- Multiple Linear Regression
-- Statistical Modeling
-- ANOVA Interpretation
-- Adjusted R² Evaluation
-- Hypothesis Testing
-- Multicollinearity Assessment
-- Residual Analysis
-- IBM SPSS Statistics
-
-Software
-
-- IBM SPSS Statistics
+IBM SPSS Statistics
 
