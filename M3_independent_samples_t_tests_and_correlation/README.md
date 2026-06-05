@@ -24,19 +24,19 @@ This project was completed using IBM SPSS Statistics as part of UCI Data Science
 
 ## Dataset
 
-This analysis used data from the General Social Survey (GSS) 2018 dataset. The project examined whether mean total family income differed significantly between White respondents and Black/Other respondents.
+This analysis used data from the General Social Survey (GSS) 2018 dataset. The project examined whether the mean total dollar value of stock ownership differed significantly between male and female respondents.
 
 Source:
 https://gss.norc.org/
 
 ## Key Findings
 
-- An independent samples t-test was conducted to compare mean total family income between White respondents and Black/Other respondents.
-- Levene’s Test for Equality of Variances was significant, indicating that the unequal variances assumption should be used for interpretation.
-- White respondents reported a significantly higher mean total family income than Black/Other respondents.
-- The difference in mean family income was statistically significant (p < .001).
-- Error bar chart analysis supported the statistical findings by showing meaningful differences in average income across racial groups.
-- Results suggested that race group membership was associated with differences in average total family income within this sample.
+- An independent samples t-test was conducted to compare the mean total dollar value of stock ownership between male and female respondents.
+- Levene’s Test for Equality of Variances was significant (p =0.005), indicating that the unequal variances assumption was used for interpretation.
+- Male respondents reported a significantly higher mean total dollar value of stock ownership than female respondents.
+- The difference between the two groups was statistically significant (p =0.005).
+- Error bar chart analysis supported the statistical findings by showing meaningful differences in average stock value between gender groups.
+- Results suggested that gender was associated with differences in average stock ownership value within this sample.
 
 ## Software Used
 
