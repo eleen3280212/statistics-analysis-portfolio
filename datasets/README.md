@@ -1,9 +1,11 @@
 # Datasets
 
-This folder contains datasets used for statistical analysis projects in this portfolio.
+Most projects in this portfolio use the General Social Survey (GSS) 2018 dataset.
 
-## Dataset Included
-- General Social Survey (GSS) 2018
-
-## Source
+Source:
 https://gss.norc.org/
+
+Exceptions:
+
+- Module 9 – Time Series Analysis and Forecasting
+  - Uses the Broadband dataset included within the module folder.
